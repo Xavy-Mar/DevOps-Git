@@ -1,0 +1,20 @@
+Issue: 
+
+$ git pull origin master
+From https://github.com/Xavy-Mar/DevOps-Docker
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+
+solution :
+
+$ git pull origin master --allow-unrelated-histories
+From https://github.com/Xavy-Mar/DevOps-Docker
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ LICENSE   | 201 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md |   2 +
+ 2 files changed, 203 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+
